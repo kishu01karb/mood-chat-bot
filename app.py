@@ -4,7 +4,7 @@ from transformers import pipeline
 app = Flask(__name__)
 
 # load the ai model
-classifier = pipeline("text-classification", model= "bhadresh-savani/distilbert-base-uncased-emotion")
+classifier = pipeline("text-classification", model="nateraw/distilbert-base-uncased-emotion-lite")
 
 #replies for mood
 responses ={
